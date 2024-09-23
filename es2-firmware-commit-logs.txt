@@ -1,0 +1,142 @@
+commit 3cc0e178c924caabf258d2b9db6197e22f5f76b4
+Author: Valerio della Porta <valerio@della-porta.com>
+Date:   Thu Sep 19 09:59:06 2024 -0400
+
+    Added saveEnergy
+
+commit c811433753adc1b0f3025a9a3d50f37ff8c2d9c7
+Author: Valerio della Porta <valerio@della-porta.com>
+Date:   Fri Sep 6 11:36:07 2024 -0400
+
+    implemented calibrate dpot and SD card (commented in ino)
+
+commit c1648c66074f2703645552db58d373dfed2a0925
+Author: Valerio della Porta <valerio@della-porta.com>
+Date:   Tue Aug 20 08:42:52 2024 -0400
+
+    Created new thing ES2AC-000002
+
+commit dc9630f3e19cf29eb796ebeafcaa1012ce241e17
+Author: Valerio della Porta <valerio@della-porta.com>
+Date:   Tue Aug 20 07:53:17 2024 -0400
+
+    Updated mode and commands
+
+commit 00bf98bec31f6b7ffc61e890cfbabb40084162ad
+Author: Valerio della Porta <valerio@della-porta.com>
+Date:   Mon Aug 19 16:27:50 2024 -0400
+
+    fixed inverting reversed temporary fix and added check for calibrating dpot
+
+commit 8afde9cd191d208eeab66550b4a7d58a210d9c04
+Author: Valerio della Porta <valerio@della-porta.com>
+Date:   Sat Aug 17 10:29:43 2024 -0400
+
+    set correct return value
+
+commit 8654bd682979f72778d5226bc57e10f5c3da35e5
+Merge: bc129b8 be0d90c
+Author: Valerio della Porta <valerio@della-porta.com>
+Date:   Fri Aug 16 13:06:44 2024 -0400
+
+    Merge branch 'main' of ssh://codecommit_acwi/v0/repos/es2-esp32-arduino-aws
+
+commit bc129b8a0d33c474db7b3d68560deefa3914d3c4
+Merge: d59f83d a333b50
+Author: Valerio della Porta <valerio@della-porta.com>
+Date:   Fri Aug 16 13:06:00 2024 -0400
+
+    misc changes in Livonia
+
+commit be0d90c37ad392476678eee777043a33a3482d67
+Author: Valerio della Porta <valerio@della-porta.com>
+Date:   Fri Aug 16 12:02:30 2024 -0400
+
+    added actual dpot value and deadband to data sent to aws
+
+commit d59f83d269354a54cb0ec73a9e021202956d34c2
+Author: Valerio della Porta <valerio@della-porta.com>
+Date:   Wed Jul 24 09:31:24 2024 -0400
+
+    added .ds_store
+
+commit a333b50cc4dd35ad5f069a998cc108343f745100
+Author: Valerio della Porta <valerio@della-porta.com>
+Date:   Tue Jul 23 12:06:03 2024 -0400
+
+    Implemented dpot calibration
+
+commit a429125d8ff991245d0a6ec0de9dd9dcd07fe328
+Author: Valerio della Porta <valerio@della-porta.com>
+Date:   Sat Jun 29 05:17:55 2024 -0400
+
+    added AR to relay fix
+
+commit 8702c0d104c9c8699796b04e10d19f4b5fed5444
+Merge: d965137 ba6db8b
+Author: Valerio della Porta <valerio@della-porta.com>
+Date:   Sat Jun 29 05:10:58 2024 -0400
+
+    Merge branch 'main' of ssh://codecommit_acwi/v1/repos/es2-esp32-arduino-aws
+
+commit d9651377ad812a001760d4c60a86b2cb223f2d3e
+Author: Valerio della Porta <valerio@della-porta.com>
+Date:   Sat Jun 29 05:10:42 2024 -0400
+
+    fixed relay activation
+
+commit ba6db8b1afd309a9a3b7835457208c0bbd3944f5
+Author: Valerio della Porta <valerio@della-porta.com>
+Date:   Fri Jun 28 18:40:12 2024 -0400
+
+    Added support for 2nd channel to AR, refactored es2ads
+
+commit 1359b04188fc7c9e0642e02bb2d80733af147320
+Merge: 57c3697 47cf61e
+Author: Valerio della Porta <valerio@della-porta.com>
+Date:   Thu Jun 20 19:32:47 2024 -0400
+
+    fixed DS_Store
+
+commit 57c36970ae95f5cc5fc403498b61ee441b44c717
+Merge: e6af6f8 8a6851a
+Author: Valerio della Porta <valeriodellaporta@Valerios-MacBook-Air.local>
+Date:   Thu Jun 20 19:27:12 2024 -0400
+
+    removed DS_Store
+
+commit 47cf61e77d30abd1c78ec36a9c930e504af7acf6
+Author: Valerio della Porta <valerio@della-porta.com>
+Date:   Thu Jun 20 19:16:04 2024 -0400
+
+    added gitignore
+
+commit bd48433f14028c26eef75e27657dfee4985cf65e
+Author: Valerio della Porta <valerio@della-porta.com>
+Date:   Thu Jun 20 19:09:21 2024 -0400
+
+    Fixed uninitialized values from EEPTOM for mode and temperature setPoint
+
+commit e6af6f899c0c723389d78e1fad63f698fb731311
+Author: Valerio della Porta <valeriodellaporta@Valerios-MacBook-Air.local>
+Date:   Wed Jun 19 17:22:40 2024 -0400
+
+    DS_Sore
+
+commit 8a6851af1e57aeea7c47804c59da19ccde11d61d
+Author: Valerio della Porta <valerio@della-porta.com>
+Date:   Wed Jun 19 17:19:17 2024 -0400
+
+    added reset after 5 aws retries, save/retrieve mode and target temperature to/from eeprom
+
+commit 3eefa99360b99d2515a0a44d996d3d34883a10aa
+Author: Valerio della Porta <valerio@della-porta.com>
+Date:   Wed Jun 12 21:27:00 2024 -0400
+
+    added ac certs
+
+commit 99571ca2b834b201c3f7f15091162780d9b1c6d8
+Author: Valerio della Porta <valerio@della-porta.com>
+Date:   Tue Jun 11 10:32:31 2024 -0400
+
+    Initial commit
