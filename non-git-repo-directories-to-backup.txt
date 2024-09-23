@@ -1,2 +1,2 @@
-[chris@ip-172-31-42-55 figma_backups]$ pwd
 /home/chris/projects/backups/figma_backups
+/home/chris/projects/backups/es2-dev-bkup

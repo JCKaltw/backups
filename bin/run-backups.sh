@@ -33,6 +33,15 @@ else
   exit 1
 fi
 
+# Run refresh-es2-dev-bkup.sh
+if [ -f ./bin/refresh-es2-dev-bkup.sh ]; then
+  echo "Running refresh-es2-dev-bkup.sh..."
+  ./bin/refresh-es2-dev-bkup.sh
+else
+  echo "Error: refresh-es2-dev-bkup.sh not found."
+  exit 1
+fi
+
 # Check if non-git-repo-directories-to-backup.txt exists
 if [ ! -f non-git-repo-directories-to-backup.txt ]; then
   echo "Error: non-git-repo-directories-to-backup.txt not found."
