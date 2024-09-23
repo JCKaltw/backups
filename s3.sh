@@ -40,6 +40,9 @@ fi
 for SOURCE_REPO in "${REPOSITORIES[@]}"; do
     REPO_NAME=$(basename "$SOURCE_REPO")
     echo "Starting sync of $REPO_NAME to S3..."
+
+    cd $SOURCE_REPO && git pull
+
     aws s3 sync "$SOURCE_REPO" "s3://$DESTINATION_BUCKET/$REPO_NAME/" --delete
 
     # Check if sync was successful
