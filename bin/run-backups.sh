@@ -1,4 +1,5 @@
 #!/bin/bash
+# bin/run-backups.sh
 
 # Check if git-repositories-to-backup.txt exists
 if [ ! -f git-repositories-to-backup.txt ]; then
@@ -42,6 +43,15 @@ else
   exit 1
 fi
 
+# Run refresh-aws-configuration-bkup.sh
+if [ -f ./bin/refresh-aws-configuration-bkup.sh ]; then
+  echo "Running refresh-aws-configuration-bkup.sh..."
+  ./bin/refresh-aws-configuration-bkup.sh
+else
+  echo "Error: refresh-aws-configuration-bkup.sh not found."
+  exit 1
+fi
+
 # Check if non-git-repo-directories-to-backup.txt exists
 if [ ! -f non-git-repo-directories-to-backup.txt ]; then
   echo "Error: non-git-repo-directories-to-backup.txt not found."
@@ -65,4 +75,3 @@ while IFS= read -r backup_dir || [ -n "$backup_dir" ]; do
 done < non-git-repo-directories-to-backup.txt
 
 echo "All tasks completed successfully."
-
