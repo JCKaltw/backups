@@ -1,2 +1,8 @@
-/home/chris/projects/es2
-/home/chris/projects/es2-esp32-arduino-aws
+/home/chris/projects/backups/git-repos/es2-esp32-arduino-aws
+/home/chris/projects/backups/git-repos/es2
+/home/chris/projects/backups/git-repos/purify
+/home/chris/projects/backups/git-repos/purify-client
+/home/chris/projects/backups/git-repos/pgdb2
+/home/chris/projects/backups/git-repos/weather
+/home/chris/projects/backups/git-repos/eyedro
+

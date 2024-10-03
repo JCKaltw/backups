@@ -1,0 +1,3 @@
+/home/chris/projects/eyedro
+/home/chris/projects/purify
+/home/chris/projects/pgdb2

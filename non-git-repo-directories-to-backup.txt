@@ -1,2 +1,3 @@
 /home/chris/projects/backups/figma_backups
 /home/chris/projects/backups/es2-dev-bkup
+/home/chris/projects/backups/aws-configurations
